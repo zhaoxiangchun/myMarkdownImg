@@ -1,69 +1,111 @@
-<mxfile host="app.diagrams.net" modified="2023-06-02T03:48:53.318Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="FRMhay2q-8hJgsXqzXrK" version="21.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-02T06:01:24.230Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="aNR7nJNLaOa9EbCkFioX" version="21.3.4" type="github">
   <diagram name="第 1 页" id="IyBiYgW33f1mDnw4rDQd">
     <mxGraphModel dx="1434" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="GbfZHwRtdLY-5y5b0WRj-3" value="ReferenceBean" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="580" y="130" width="100" height="40" as="geometry" />
+          <mxGeometry x="580" y="200" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="GbfZHwRtdLY-5y5b0WRj-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="GbfZHwRtdLY-5y5b0WRj-4" target="GbfZHwRtdLY-5y5b0WRj-3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Qh3NI6n2waNl-zGAQ7PT-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GbfZHwRtdLY-5y5b0WRj-4" target="Qh3NI6n2waNl-zGAQ7PT-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="470" />
+              <mxPoint x="760" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qh3NI6n2waNl-zGAQ7PT-11" value="invokers" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Qh3NI6n2waNl-zGAQ7PT-10">
+          <mxGeometry x="-0.0559" y="-4" relative="1" as="geometry">
+            <mxPoint x="5" y="-4" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="GbfZHwRtdLY-5y5b0WRj-4" value="&lt;pre style=&quot;color: rgb(171, 178, 191); font-family: &amp;quot;Droid Sans Mono&amp;quot;, monospace; font-size: 12pt;&quot;&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; color: rgb(0, 0, 0); text-align: start;&quot; class=&quot;p1&quot;&gt;MigrationInvoker&lt;/p&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="580" y="210" width="100" height="40" as="geometry" />
+          <mxGeometry x="580" y="500" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GbfZHwRtdLY-5y5b0WRj-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="GbfZHwRtdLY-5y5b0WRj-6" target="GbfZHwRtdLY-5y5b0WRj-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="490" y="320" />
-              <mxPoint x="490" y="270" />
-              <mxPoint x="605" y="270" />
+              <mxPoint x="490" y="610" />
+              <mxPoint x="490" y="560" />
+              <mxPoint x="605" y="560" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="GbfZHwRtdLY-5y5b0WRj-8" value="cluster" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GbfZHwRtdLY-5y5b0WRj-7" vertex="1" connectable="0">
           <mxGeometry x="-0.1592" y="-1" relative="1" as="geometry">
-            <mxPoint x="24" as="offset" />
+            <mxPoint x="34" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GbfZHwRtdLY-5y5b0WRj-6" value="&lt;pre style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, monospace; font-size: 12pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, monospace; font-size: 12pt;&quot;&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;FailoverCluster&lt;/p&gt;&lt;/pre&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="440" y="300" width="100" height="40" as="geometry" />
+          <mxGeometry x="440" y="590" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GbfZHwRtdLY-5y5b0WRj-12" value="invoker" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="GbfZHwRtdLY-5y5b0WRj-9" target="GbfZHwRtdLY-5y5b0WRj-4" edge="1">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.7073" y="20" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="770" y="320" />
-              <mxPoint x="770" y="270" />
-              <mxPoint x="655" y="270" />
+              <mxPoint x="770" y="610" />
+              <mxPoint x="770" y="560" />
+              <mxPoint x="655" y="560" />
             </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qh3NI6n2waNl-zGAQ7PT-17" value="invoker" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GbfZHwRtdLY-5y5b0WRj-12">
+          <mxGeometry x="0.2195" y="3" relative="1" as="geometry">
+            <mxPoint x="5" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GbfZHwRtdLY-5y5b0WRj-9" value="&lt;pre style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, monospace; font-size: 12pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, monospace; font-size: 12pt;&quot;&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;FailoverCluster.join&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;(directory, true)&lt;/p&gt;&lt;/pre&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="710" y="300" width="120" height="40" as="geometry" />
+          <mxGeometry x="710" y="590" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GbfZHwRtdLY-5y5b0WRj-14" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;directory&lt;/p&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="GbfZHwRtdLY-5y5b0WRj-13" target="GbfZHwRtdLY-5y5b0WRj-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GbfZHwRtdLY-5y5b0WRj-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GbfZHwRtdLY-5y5b0WRj-13" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="770" y="460" as="targetPoint" />
+            <mxPoint x="770" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GbfZHwRtdLY-5y5b0WRj-21" value="subscribe" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="GbfZHwRtdLY-5y5b0WRj-13" target="GbfZHwRtdLY-5y5b0WRj-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GbfZHwRtdLY-5y5b0WRj-13" value="&lt;pre style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, monospace; font-size: 12pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, monospace; font-size: 12pt;&quot;&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;RegistryDirectory&lt;/p&gt;&lt;/pre&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="710" y="390" width="120" height="40" as="geometry" />
+          <mxGeometry x="710" y="680" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GbfZHwRtdLY-5y5b0WRj-17" value="&lt;pre style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, monospace; font-size: 12pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, monospace; font-size: 12pt;&quot;&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;   urlInvokerMap&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;cachedInvokerUrls&lt;/p&gt;&lt;/pre&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;align=center;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="710" y="460" width="120" height="80" as="geometry" />
+          <mxGeometry x="710" y="750" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GbfZHwRtdLY-5y5b0WRj-22" value="notify" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="GbfZHwRtdLY-5y5b0WRj-18" target="GbfZHwRtdLY-5y5b0WRj-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GbfZHwRtdLY-5y5b0WRj-18" value="&lt;pre style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, monospace; font-size: 12pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, monospace; font-size: 12pt;&quot;&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;zookeeper&lt;/p&gt;&lt;/pre&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;align=center;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="920" y="390" width="120" height="40" as="geometry" />
+          <mxGeometry x="920" y="680" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh3NI6n2waNl-zGAQ7PT-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qh3NI6n2waNl-zGAQ7PT-1" target="GbfZHwRtdLY-5y5b0WRj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh3NI6n2waNl-zGAQ7PT-1" value="&lt;pre style=&quot;color: rgb(171, 178, 191); font-family: &amp;quot;Droid Sans Mono&amp;quot;, monospace; font-size: 12pt;&quot;&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; color: rgb(0, 0, 0); text-align: start;&quot; class=&quot;p1&quot;&gt;invoker&lt;/p&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="580" y="340" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh3NI6n2waNl-zGAQ7PT-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qh3NI6n2waNl-zGAQ7PT-4" target="Qh3NI6n2waNl-zGAQ7PT-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh3NI6n2waNl-zGAQ7PT-4" value="&lt;pre style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, monospace; font-size: 12pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, monospace; font-size: 12pt;&quot;&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;FailoverCluster&lt;/p&gt;&lt;/pre&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="450" y="409" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh3NI6n2waNl-zGAQ7PT-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qh3NI6n2waNl-zGAQ7PT-6" target="Qh3NI6n2waNl-zGAQ7PT-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh3NI6n2waNl-zGAQ7PT-8" value="join" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Qh3NI6n2waNl-zGAQ7PT-7">
+          <mxGeometry x="0.0853" y="-3" relative="1" as="geometry">
+            <mxPoint x="-3" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qh3NI6n2waNl-zGAQ7PT-6" value="&lt;pre style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, monospace; font-size: 12pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, monospace; font-size: 12pt;&quot;&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;&lt;span style=&quot;background-color: initial; white-space: normal;&quot;&gt;StaticDirectory&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;/pre&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="700" y="409" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh3NI6n2waNl-zGAQ7PT-12" value="&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;Helvetica Neue&quot;&gt;代理类:&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;Helvetica Neue&quot;&gt;Invoker&lt;/font&gt;InvocationHandler&lt;/pre&gt;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="535" y="270" width="190" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
