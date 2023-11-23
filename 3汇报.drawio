@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-21T13:35:51.714Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="b73sixtsepzE9NcPzBOi" version="22.1.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-11-23T02:32:11.408Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="7Soalbvf46htnoDvg18y" version="22.1.3" type="github" pages="4">
   <diagram name="第 1 页" id="cvunBjMl_WiMIwX5Uzwi">
     <mxGraphModel dx="954" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -545,7 +545,7 @@
         <mxCell id="V9Ju9CoLPqeJOxiMATKG-6" value="获取地域信息，获取符合的中间号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="380" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="V9Ju9CoLPqeJOxiMATKG-7" value="可以根据坐席(tb_num_seat_info)配置，&lt;br&gt;首先选择主角还是被叫低于" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="V9Ju9CoLPqeJOxiMATKG-7" value="可以根据坐席(tb_num_seat_info)配置，&lt;br&gt;优先选择主叫还是被叫地域" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="355" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="V9Ju9CoLPqeJOxiMATKG-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V9Ju9CoLPqeJOxiMATKG-9" target="V9Ju9CoLPqeJOxiMATKG-10">
@@ -612,8 +612,14 @@
         <mxCell id="V9Ju9CoLPqeJOxiMATKG-20" value="tb_bind_rela,&lt;br&gt;numA,numX,numB 绑定关系处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="485" y="820" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="V9Ju9CoLPqeJOxiMATKG-23" value="中间号相关信息返回" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="V9Ju9CoLPqeJOxiMATKG-23" value="中间号相关信息组装" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="485" y="910" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="V9Ju9CoLPqeJOxiMATKG-28" value="返回" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="1000" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="V9Ju9CoLPqeJOxiMATKG-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.45;entryY=-0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="V9Ju9CoLPqeJOxiMATKG-23" target="V9Ju9CoLPqeJOxiMATKG-28">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
