@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-26T13:51:51.654Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="JHLgUdKP4MG5aiEj7Rnk" version="22.1.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-11-26T14:05:24.045Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="-hG0QlPH0FqkfVZ-s_Kj" version="22.1.3" type="github" pages="6">
   <diagram name="免费中间号判断" id="cvunBjMl_WiMIwX5Uzwi">
     <mxGraphModel dx="954" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -707,11 +707,123 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="og5Bs8KzHm2nHcdVmlLn" name="第 6 页">
+  <diagram id="og5Bs8KzHm2nHcdVmlLn" name="全机器人呼叫策略">
     <mxGraphModel dx="954" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PPO1fciSzz9CNC40-g_2-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PPO1fciSzz9CNC40-g_2-1" target="PPO1fciSzz9CNC40-g_2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PPO1fciSzz9CNC40-g_2-1" value="全机器人拨打策略" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="60" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PPO1fciSzz9CNC40-g_2-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PPO1fciSzz9CNC40-g_2-2" target="PPO1fciSzz9CNC40-g_2-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PPO1fciSzz9CNC40-g_2-2" value="获取线索外呼话单&lt;br&gt;tb_call_data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="312.5" y="170" width="145" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PPO1fciSzz9CNC40-g_2-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PPO1fciSzz9CNC40-g_2-3" target="PPO1fciSzz9CNC40-g_2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PPO1fciSzz9CNC40-g_2-3" value="过滤机器人外呼话单&lt;br&gt;callWayType =&amp;nbsp; BOT_CALL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="306.25" y="250" width="157.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PPO1fciSzz9CNC40-g_2-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PPO1fciSzz9CNC40-g_2-4" target="PPO1fciSzz9CNC40-g_2-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PPO1fciSzz9CNC40-g_2-4" value="过滤人工外呼话单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="306.25" y="330" width="157.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PPO1fciSzz9CNC40-g_2-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PPO1fciSzz9CNC40-g_2-5" target="PPO1fciSzz9CNC40-g_2-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PPO1fciSzz9CNC40-g_2-8" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PPO1fciSzz9CNC40-g_2-7">
+          <mxGeometry x="-0.2667" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPO1fciSzz9CNC40-g_2-22" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PPO1fciSzz9CNC40-g_2-5" target="PPO1fciSzz9CNC40-g_2-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PPO1fciSzz9CNC40-g_2-5" value="机器+人工拨打次数&lt;br&gt;&amp;gt;= 4" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="400" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PPO1fciSzz9CNC40-g_2-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PPO1fciSzz9CNC40-g_2-6" target="PPO1fciSzz9CNC40-g_2-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="430" />
+              <mxPoint x="810" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPO1fciSzz9CNC40-g_2-6" value="结束拨打，&lt;br&gt;finishedReason = MATCH_MAX_CALLOUT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="405" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PPO1fciSzz9CNC40-g_2-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PPO1fciSzz9CNC40-g_2-9" target="PPO1fciSzz9CNC40-g_2-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PPO1fciSzz9CNC40-g_2-12" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PPO1fciSzz9CNC40-g_2-11">
+          <mxGeometry x="-0.0444" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPO1fciSzz9CNC40-g_2-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PPO1fciSzz9CNC40-g_2-9" target="PPO1fciSzz9CNC40-g_2-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PPO1fciSzz9CNC40-g_2-25" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PPO1fciSzz9CNC40-g_2-23">
+          <mxGeometry x="-0.25" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPO1fciSzz9CNC40-g_2-9" value="机器呼叫是否有接通&lt;br&gt;话单" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="500" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PPO1fciSzz9CNC40-g_2-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="PPO1fciSzz9CNC40-g_2-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPO1fciSzz9CNC40-g_2-10" value="结束拨打，&lt;br&gt;finishedReason = BOT_CALLOUT_ANSWERED" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="505" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PPO1fciSzz9CNC40-g_2-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PPO1fciSzz9CNC40-g_2-15" target="PPO1fciSzz9CNC40-g_2-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PPO1fciSzz9CNC40-g_2-14" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PPO1fciSzz9CNC40-g_2-13">
+          <mxGeometry x="-0.0444" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPO1fciSzz9CNC40-g_2-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PPO1fciSzz9CNC40-g_2-15" target="PPO1fciSzz9CNC40-g_2-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PPO1fciSzz9CNC40-g_2-26" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PPO1fciSzz9CNC40-g_2-24">
+          <mxGeometry x="-0.32" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPO1fciSzz9CNC40-g_2-15" value="人工呼叫是否有接通&lt;br&gt;话单" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="600" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PPO1fciSzz9CNC40-g_2-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="PPO1fciSzz9CNC40-g_2-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPO1fciSzz9CNC40-g_2-16" value="结束拨打，&lt;br&gt;finishedReason = PERSON_CALLOUT_ANSWERED" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="605" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PPO1fciSzz9CNC40-g_2-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PPO1fciSzz9CNC40-g_2-17" target="PPO1fciSzz9CNC40-g_2-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PPO1fciSzz9CNC40-g_2-17" value="继续拨打，&lt;br&gt;isNeedContinueCallout=true isFinishedOfLeadsCall=false" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="298.13" y="710" width="173.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PPO1fciSzz9CNC40-g_2-27" value="策略结果返回" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320.01" y="810" width="130" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
