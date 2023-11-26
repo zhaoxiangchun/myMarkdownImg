@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-26T08:46:46.802Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Hgp_SB1161U7JmEeCiiD" version="22.1.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-11-26T09:00:50.704Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="nou8jOkvDlrKBIcJTuhb" version="22.1.3" type="github" pages="4">
   <diagram name="第 1 页" id="cvunBjMl_WiMIwX5Uzwi">
     <mxGraphModel dx="954" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -521,20 +521,46 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="R0t5TxclnTC8mSZL61ST-10" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="480" y="80" width="560" height="980" as="geometry" />
+        </mxCell>
+        <mxCell id="R0t5TxclnTC8mSZL61ST-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V9Ju9CoLPqeJOxiMATKG-1" target="V9Ju9CoLPqeJOxiMATKG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="V9Ju9CoLPqeJOxiMATKG-1" value="获取中间号" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="40" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="R0t5TxclnTC8mSZL61ST-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V9Ju9CoLPqeJOxiMATKG-2" target="V9Ju9CoLPqeJOxiMATKG-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R0t5TxclnTC8mSZL61ST-7" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="R0t5TxclnTC8mSZL61ST-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R0t5TxclnTC8mSZL61ST-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V9Ju9CoLPqeJOxiMATKG-2" target="R0t5TxclnTC8mSZL61ST-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V9Ju9CoLPqeJOxiMATKG-2" value="是否为风云号码&lt;br&gt;xnumTag == FENG_YUN_PLAN&lt;br&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="140" width="140" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="R0t5TxclnTC8mSZL61ST-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V9Ju9CoLPqeJOxiMATKG-3" target="V9Ju9CoLPqeJOxiMATKG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="V9Ju9CoLPqeJOxiMATKG-3" value="获取用户绑定手机号&lt;br&gt;numA" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="150" width="150" height="40" as="geometry" />
+          <mxGeometry x="595" y="150" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R0t5TxclnTC8mSZL61ST-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V9Ju9CoLPqeJOxiMATKG-4" target="V9Ju9CoLPqeJOxiMATKG-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V9Ju9CoLPqeJOxiMATKG-4" value="获取今日被标记中的&lt;br&gt;中间号列表,过滤不符合号码&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;tb_num_mark_record&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="220" width="150" height="60" as="geometry" />
+          <mxGeometry x="595" y="220" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R0t5TxclnTC8mSZL61ST-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V9Ju9CoLPqeJOxiMATKG-5" target="V9Ju9CoLPqeJOxiMATKG-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V9Ju9CoLPqeJOxiMATKG-5" value="获取标记次数大于2次的&lt;br&gt;中间号&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="310" width="150" height="40" as="geometry" />
+          <mxGeometry x="595" y="310" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="V9Ju9CoLPqeJOxiMATKG-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="V9Ju9CoLPqeJOxiMATKG-6" target="V9Ju9CoLPqeJOxiMATKG-7">
           <mxGeometry relative="1" as="geometry" />
@@ -543,28 +569,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V9Ju9CoLPqeJOxiMATKG-6" value="获取地域信息，获取符合的中间号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="380" width="150" height="40" as="geometry" />
+          <mxGeometry x="595" y="380" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="V9Ju9CoLPqeJOxiMATKG-7" value="可以根据坐席(tb_num_seat_info)配置，&lt;br&gt;优先选择主叫还是被叫地域" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="750" y="355" width="180" height="90" as="geometry" />
+          <mxGeometry x="865" y="355" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="V9Ju9CoLPqeJOxiMATKG-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V9Ju9CoLPqeJOxiMATKG-9" target="V9Ju9CoLPqeJOxiMATKG-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V9Ju9CoLPqeJOxiMATKG-9" value="根据地域获取风云权益中间号列表信息.&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;tb_num_pool_conf&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="475" y="460" width="160" height="50" as="geometry" />
+          <mxGeometry x="590" y="460" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="V9Ju9CoLPqeJOxiMATKG-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V9Ju9CoLPqeJOxiMATKG-10" target="V9Ju9CoLPqeJOxiMATKG-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V9Ju9CoLPqeJOxiMATKG-10" value="查询中间号当前的外呼次数信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="540" width="160" height="50" as="geometry" />
+          <mxGeometry x="595" y="540" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="V9Ju9CoLPqeJOxiMATKG-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V9Ju9CoLPqeJOxiMATKG-11" target="V9Ju9CoLPqeJOxiMATKG-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V9Ju9CoLPqeJOxiMATKG-11" value="根据外呼次数，标记次数，过滤不符合中间号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="620" width="160" height="50" as="geometry" />
+          <mxGeometry x="595" y="620" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="V9Ju9CoLPqeJOxiMATKG-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V9Ju9CoLPqeJOxiMATKG-13" target="V9Ju9CoLPqeJOxiMATKG-20">
           <mxGeometry relative="1" as="geometry" />
@@ -577,8 +603,8 @@
         <mxCell id="V9Ju9CoLPqeJOxiMATKG-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="V9Ju9CoLPqeJOxiMATKG-13" target="V9Ju9CoLPqeJOxiMATKG-23">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="720" y="735" />
-              <mxPoint x="720" y="948" />
+              <mxPoint x="835" y="735" />
+              <mxPoint x="835" y="948" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -588,16 +614,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="V9Ju9CoLPqeJOxiMATKG-13" value="判断是否有可用中间号" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="485" y="700" width="150" height="70" as="geometry" />
+          <mxGeometry x="600" y="700" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="V9Ju9CoLPqeJOxiMATKG-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;dashed=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="V9Ju9CoLPqeJOxiMATKG-13" target="V9Ju9CoLPqeJOxiMATKG-9">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="485" y="735" as="sourcePoint" />
-            <mxPoint x="330" y="420" as="targetPoint" />
+            <mxPoint x="600" y="735" as="sourcePoint" />
+            <mxPoint x="445" y="420" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="598" y="720" />
-              <mxPoint x="720" y="720" />
-              <mxPoint x="720" y="460" />
+              <mxPoint x="713" y="720" />
+              <mxPoint x="835" y="720" />
+              <mxPoint x="835" y="460" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -610,16 +636,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V9Ju9CoLPqeJOxiMATKG-20" value="tb_bind_rela,&lt;br&gt;numA,numX,numB 绑定关系处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="485" y="820" width="150" height="50" as="geometry" />
+          <mxGeometry x="600" y="820" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="V9Ju9CoLPqeJOxiMATKG-23" value="中间号相关信息组装" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="485" y="910" width="150" height="50" as="geometry" />
+          <mxGeometry x="600" y="910" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="R0t5TxclnTC8mSZL61ST-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="V9Ju9CoLPqeJOxiMATKG-28" target="R0t5TxclnTC8mSZL61ST-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V9Ju9CoLPqeJOxiMATKG-28" value="返回" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="495" y="1000" width="140" height="50" as="geometry" />
+          <mxGeometry x="610" y="1000" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="V9Ju9CoLPqeJOxiMATKG-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.45;entryY=-0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="V9Ju9CoLPqeJOxiMATKG-23" target="V9Ju9CoLPqeJOxiMATKG-28">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R0t5TxclnTC8mSZL61ST-8" value="获取商用中间号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R0t5TxclnTC8mSZL61ST-12" value="&lt;font color=&quot;#ff0000&quot;&gt;风云- AXP模式获取中间号&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="730" y="68" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
