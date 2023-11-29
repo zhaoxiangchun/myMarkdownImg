@@ -1,9 +1,86 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T12:16:12.607Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.4" etag="EzdDppn0Zt2K0adQOCxd" type="github">
-  <diagram name="第 1 页" id="AgkUoRc-dzkPZQeiKcTa">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2023-11-29T07:58:01.132Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="i3-0Zsn1kk63LqHlLMcZ" version="22.1.4" type="github">
+  <diagram name="审核重试" id="AgkUoRc-dzkPZQeiKcTa">
+    <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GpKCRG93XBjSW0bGCPDM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GpKCRG93XBjSW0bGCPDM-1" target="GpKCRG93XBjSW0bGCPDM-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GpKCRG93XBjSW0bGCPDM-1" value="审核" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="447.5" y="40" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GpKCRG93XBjSW0bGCPDM-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GpKCRG93XBjSW0bGCPDM-2" target="GpKCRG93XBjSW0bGCPDM-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GpKCRG93XBjSW0bGCPDM-2" value="调用天润审核接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="446.25" y="120" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GpKCRG93XBjSW0bGCPDM-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GpKCRG93XBjSW0bGCPDM-3" target="GpKCRG93XBjSW0bGCPDM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GpKCRG93XBjSW0bGCPDM-17" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GpKCRG93XBjSW0bGCPDM-11">
+          <mxGeometry x="-0.12" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpKCRG93XBjSW0bGCPDM-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GpKCRG93XBjSW0bGCPDM-3" target="GpKCRG93XBjSW0bGCPDM-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GpKCRG93XBjSW0bGCPDM-16" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GpKCRG93XBjSW0bGCPDM-12">
+          <mxGeometry x="-0.2875" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpKCRG93XBjSW0bGCPDM-3" value="审核接口是否&lt;br&gt;返回成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="447.5" y="210" width="132.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GpKCRG93XBjSW0bGCPDM-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GpKCRG93XBjSW0bGCPDM-4" target="GpKCRG93XBjSW0bGCPDM-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GpKCRG93XBjSW0bGCPDM-18" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GpKCRG93XBjSW0bGCPDM-8">
+          <mxGeometry x="-0.1667" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpKCRG93XBjSW0bGCPDM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GpKCRG93XBjSW0bGCPDM-4" target="GpKCRG93XBjSW0bGCPDM-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GpKCRG93XBjSW0bGCPDM-19" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GpKCRG93XBjSW0bGCPDM-10">
+          <mxGeometry x="-0.2444" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpKCRG93XBjSW0bGCPDM-4" value="判断重试是否达到&lt;br&gt;最大重试" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="210" width="132.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GpKCRG93XBjSW0bGCPDM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GpKCRG93XBjSW0bGCPDM-5" target="GpKCRG93XBjSW0bGCPDM-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GpKCRG93XBjSW0bGCPDM-5" value="删除redis中缓存次数值" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="628.75" y="320" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GpKCRG93XBjSW0bGCPDM-6" value="添加延迟审核任务&lt;br&gt;延迟时间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="215" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GpKCRG93XBjSW0bGCPDM-7" value="审核结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="448.75" y="420" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GpKCRG93XBjSW0bGCPDM-15" value="config服务：&lt;br&gt;最大重试次数&lt;br&gt;延迟时间" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GpKCRG93XBjSW0bGCPDM-21" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="810" y="110" as="sourcePoint" />
+            <mxPoint x="700" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GpKCRG93XBjSW0bGCPDM-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="GpKCRG93XBjSW0bGCPDM-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="120" as="sourcePoint" />
+            <mxPoint x="908" y="196" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
